@@ -42,3 +42,14 @@ section .black {
     background: white;
     mix-blend-mode: difference;
 }
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    section h2 {
+        font-weight: bolder;
+        letter-spacing: 15px;
+    }
+
+    section h2 span {
+        font-size: 55px;
+    }
+}
