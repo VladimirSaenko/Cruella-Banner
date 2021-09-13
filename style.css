@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Yellowtail', cursive, sans-serif;
     user-select: none;
 }
 
@@ -19,12 +18,14 @@ section {
 
 section h2 {
     position: relative;
-    font-size: 20vw;
+    font-size: 30vw;
     text-align: center;
     line-height: 0.75em;
     text-transform: uppercase;
-    font-weight: 800;
     letter-spacing: 20px;
+    font-family: 'Cruella MM',cursive;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 section h2 span {
@@ -45,11 +46,15 @@ section .black {
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
     section h2 {
-        font-weight: bolder;
         letter-spacing: 15px;
     }
 
     section h2 span {
         font-size: 55px;
     }
+}
+
+@font-face {
+    font-family: 'Cruella MM';
+    src: url(fonts/MMCruella100.ttf);
 }
