@@ -4,8 +4,8 @@
 
 ### Сайт-баннер с интересной фичей hover'а на js
  
-### Codepen {
+## Codepen {
 
-#### https://codepen.io/vladimirsaenko/pen/YzVwqLJ
+### https://codepen.io/vladimirsaenko/pen/YzVwqLJ
 
 ### }
