@@ -44,6 +44,15 @@ section .black {
     mix-blend-mode: difference;
 }
 
+section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media screen and (min-width: 300px) and (max-width: 800px) {
     section h2 {
         letter-spacing: 15px;
