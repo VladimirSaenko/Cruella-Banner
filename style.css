@@ -21,9 +21,7 @@ section h2 {
     font-size: 30vw;
     text-align: center;
     line-height: 0.75em;
-    text-transform: uppercase;
-    letter-spacing: 20px;
-    font-family: 'Cruella MM',cursive;
+    font-family: 'Abdullah Font';
     font-style: italic;
     font-weight: bolder;
 }
@@ -61,9 +59,4 @@ section img {
     section h2 span {
         font-size: 55px;
     }
-}
-
-@font-face {
-    font-family: 'Cruella MM';
-    src: url(fonts/MMCruella100.ttf);
 }
