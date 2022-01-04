@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     user-select: none;
+    box-sizing: border-box;
 }
 
 section {
@@ -21,9 +22,6 @@ section h2 {
     font-size: 30vw;
     text-align: center;
     line-height: 0.75em;
-    font-family: 'Abdullah Font';
-    font-style: italic;
-    font-weight: bolder;
 }
 
 section h2 span {
